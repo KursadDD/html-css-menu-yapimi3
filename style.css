@@ -1,0 +1,102 @@
+body{
+    background-image:url(images/fon.jpg);
+    background-repeat: repeat-x;
+}
+.container{
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    width: 800px;
+    height: 50px;
+    background-color: burlywood;
+
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* width: 800px; */
+       
+}
+.menu ul li{
+    float: left;    
+}
+.menu a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    padding-right:50px;
+    
+}
+.menu a:hover{
+    color: white;
+    background-color: #cd853f;
+    
+}
+
+.content{
+    width: 770px;
+    height: auto;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.eserler ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.eserler a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.eserler a:hover{
+    font-weight: bold ;
+    text-decoration: underline;
+}
+
+.eserler{
+    float: left;
+    width: 150px;
+    height: auto;
+    
+}
+
+.eserlerimiz{
+    float: left;
+    width: 550px;
+    height: auto;
+     
+}
+
+.temizle{
+    clear: both;
+}
+.eserlerimiz img {
+    width: 135px;
+    height: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border: solid 5px burlywood;
+}
+.eserlerimiz img:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.footer{
+    float: left;
+    width: 800px;
+    height: 50px;
+    background-color: purple;
+    line-height: 50px;
+    color: white;
+}
